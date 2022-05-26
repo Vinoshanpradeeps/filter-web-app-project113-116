@@ -1,8 +1,8 @@
 body{
-    background-color: aqua;
+    background-color: black;
 }
 h3 {
-    background-color: black;
+    background-color: aqua;
     color: white;
 }
 .button {
@@ -65,11 +65,13 @@ h3 {
 }
 canvas{
     animation-name: example;
-    animation-duration: 5s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
     margin-top: 60px;
 }
 @keyframes example{
-    from{box-shadow: 1px 1px 40px white;}
-    to{box-shadow: 1px 1px 40px black;}
+    from{box-shadow: 1px 1px 40px #ff0000;}
+    to{box-shadow: 1px 1px 40px #ff7300;}
+    form{box-shadow: 1px 1px 40px #fffb00;}
+    to{box-shadow: 1px 1px 40px #48ff00;}
 }
